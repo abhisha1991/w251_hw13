@@ -5,7 +5,7 @@ This homework is based off the week 13 homework given here: https://github.com/M
 #### Please submit the time it took you to train the model along with the final accuracy top1/top5 that you were able to achieve. 
 The top 1 and top 5 accuracy achieved are as follows:
 ```Acc@1 51.630 Acc@5 83.877```
-Please see accuracy.png in this repo for more details.
+Please see accuracy.png in this repo for more details. What was interesting was that the top 1 accuracy in the validation phase varied greatly - from 12 percent to 65 percent. 
 
 #### Could you increase the batch size? Why? 
 Yes, I was able to increase the batch size from the default value, 8 to 32. We were able to do this on the jetson tx2 without getting OOM because the jetson has sufficient memory to hold 32 image batches.
